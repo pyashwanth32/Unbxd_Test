@@ -1,0 +1,54 @@
+1. D. (a, 2) (b, 4) (c, 1) (d, 3)
+2. B. Prints all nodes of linked list in reverse order
+3. A. An array of 50 numbers
+4. B. Transpose of matrix A
+5. a.    context – switch
+6. d) all of the mentioned
+7. b. O(nLogn)
+8. Assuming 8 bits per character, 2,147,483,648 characters can be stored.
+9. Program counter and stack.
+10. A. Stack
+11. B. Recurrence is T(n) = T(n-1) + O(n) and time complexity is O(n^2)
+12. B. O(n*Logn)
+13. b. O(n)
+14. (D) Selection Sort
+15. (A) SMTP
+16. (B) n=21, k=12
+17. B. Stack
+18. C. QMNPRO
+
+Programming Questions:
+3. Let x be the number given.
+int main()
+{
+int i=0 ,j=0, k=0, count=0;
+int h=x;
+int y=0,z=0;
+if(i>1)
+{ 
+  for(i=1;i<x;i++)
+  {
+    for(j=1;j<i;j++)
+    {
+      for(k=i;k>1;k--)
+      {
+        y=h-1;
+        count+=1;
+      }
+      z=y
+      if(z<y/2)
+      {
+        break;
+      }
+    }
+  }
+  count+=1;
+}
+else
+{
+  count+=1;
+}
+return count; 
+}
+
+        
